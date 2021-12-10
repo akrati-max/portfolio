@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+/* section{ 
+    height: 300px;
+    border:2px solid black;
+    background-color: aqua;
+    color: white;
+} */
+
+.home{
+    background-color: black;
+    height: 100vh; /*vh is view port height,to take the height of whole page*/ 
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px;
+    background-color: #1b1a1a;
+    height: 80px;
+}
+.logo {
+    color: rgb(255, 173, 252);
+    text-shadow: 0 0 20px rgb(255 0 247 / 76%);
+    
+    padding-left: 20px;
+}
+.logo a{
+    text-decoration: none;
+    animation: blinker 1s infinite;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 500px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+    padding: 80px;
+    
+}
+h1{
+    font-size: 80px;
+    /* border: 5px solid yellow; */
+    
+}
+p{
+    /* border: 5px solid yellow; */
+    font-size: 40px;
+}
+.about-me-button{
+      border-radius: 50px;
+      background-color: red;
+      height: 30px;
+      width: 130px;
+      text-align: center;
+      padding-top: 4px;
+      margin-top: 5px;
+}
+.about-me-button:hover{
+    cursor: pointer;
+    background-color: rgb(176, 8, 8);
+}
+.about-me{
+    height:70vh;
+    border: 2px solid black;
+}
+.about-me-text{
+   color: black;
+}
+#projects{
+    display: flex;
+    gap: 10px;
+    padding: 80px;
+
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+     
+}
+.project-card{
+    height: 100px;
+    width: 30px;
+    background-color: black;
+
+
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 10px #1b1a1a;
+    height: 400px;
+    width: 250px;
+   
+    
+}
+#project-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.project-card img{
+    height: 150px;
+    padding: 15px;
+}
+.project-card h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.project-card p{
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+    
+}
+.view-btn{
+    background-color: #181515;
+    color: rgb(248, 244, 244);
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+
+}
+.view-btn:hover{
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    
+    
+    
+   
+}
+footer{
+    height: 200px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
